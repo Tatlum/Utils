@@ -1,0 +1,25 @@
+{
+  "name": "com.ermine.utils",
+  "version": "1.0.0",
+  "displayName": "Ermine Games Utils",
+  "description": "Utility library for Unity development. Provides extension methods and helper classes for common tasks.",
+  "keywords": [
+    "utils",
+    "extensions",
+    "utilities",
+    "helpers"
+  ],
+  "author": {
+    "name": "Ermine Games"
+  },
+  "license": "MIT",
+  "type": "library",
+  "unity": "2022.2",
+  "unityRelease": "1f1",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tatlum/Utils.git"
+  }
+}
+
