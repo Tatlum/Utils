@@ -1,0 +1,20 @@
+{
+    "name": "ErmineGames.Utils",
+    "rootNamespace": "ErmineGames.Utils",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.ai.navigation",
+            "expression": "2.0.0",
+            "define": "HAS_AI_NAVIGATION"
+        }
+    ],
+    "noEngineReferences": false
+}
