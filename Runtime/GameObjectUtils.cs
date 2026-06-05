@@ -6,9 +6,16 @@ namespace ErmineGames.Utils
     {
         public static void DestroyAllChildren(this GameObject gameObject) 
         {
-            foreach(Transform child in gameObject.transform)
+            if (gameObject == null)
             {
-                Object.Destroy(child.gameObject);
+                return;
+            }
+
+            var transform = gameObject.transform;
+            
+            for (int i = transform.childCount - 1; i >= 0; i--)
+            {
+                Object.Destroy(transform.GetChild(i).gameObject);
             }
         }
     }

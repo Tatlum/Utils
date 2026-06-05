@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ErmineGames.Utils
 {
-    public static partial class CollectionUtils
+    public static class CollectionUtils
     {
         public static void RemoveAtFast<T>(this List<T> list, int index)
         {
